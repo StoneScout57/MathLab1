@@ -8,7 +8,7 @@ double func(double* y, double t, int i)
 	switch (i)
 	{
 	case 0: u = 2.0 * (y[0] - y[0] * y[1]); break;
-	case 1: u = - (y[1] - y[0] * y[1]); break;
+	case 1: u = - (y[1] - y[1]); break;
 	}
 	return u;
 }
